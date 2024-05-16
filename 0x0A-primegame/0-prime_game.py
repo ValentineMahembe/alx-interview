@@ -1,6 +1,13 @@
 #!/usr/bin/python3
+"""
+Prime game implementation
+"""
+
 
 def isWinner(x, nums):
+    """
+    Implementation
+    """
     if x < 1 or not nums:
         return None
 
